@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --roboto-mono: "Roboto Mono";
+    --inter: "Inter";
+    --magnolia: hsl(290, 25%, 95%);
+    --jet: hsl(156, 6%, 16%);
+    --aquamarine: hsl(161, 67%, 56%);
+    --grape: hsl(282, 50%, 44%);
+    --vermillion: hsl(4, 83%, 60%);
+  }
+
+.title {
+    color: var(--magnolia);
+    width: fit-content;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: var(--roboto-mono);
+    font-size: 48px;
+}
+
+.com-practice {
+    color: var(--magnolia);
+    width: 750px;
+
+    margin-bottom: 50px;
+}
+
+.com-practice a {
+    color: var(--aquamarine);
+    text-decoration: none;
+}
+
+.com-practice a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    font-family: var(--roboto-mono);
+    font-size: 36px;
+}
+
+h3 {
+    font-family: var(--inter);
+    font-size: 18px;
+}
+
+p {
+    font-family: var(--inter);
+    line-height: 20px;
+}
+
