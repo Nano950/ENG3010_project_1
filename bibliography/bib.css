@@ -12,4 +12,47 @@
     --aquamarine: hsl(161, 67%, 56%);
     --grape: hsl(282, 50%, 44%);
     --vermillion: hsl(4, 83%, 60%);
-  }
+}
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: fit-content;
+    border-bottom: 3px solid var(--magnolia);
+    font-family: var(--roboto-mono);
+    font-size: 48px;
+    color: var(--magnolia);
+}
+
+.citation {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: var(--magnolia);
+}
+
+.author {
+    font-weight: bold;
+}
+
+.year {
+    font-style: italic;
+}
+
+.source-title {
+    display: inline; /* Ensure the title remains inline */
+}
+
+.journal {
+    font-style: italic;
+}
+
+.doi a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.doi a:hover {
+    text-decoration: underline;
+}
+
