@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --roboto-mono: "Roboto Mono";
+    --magnolia: hsl(290, 25%, 95%);
+    --jet: hsl(156, 6%, 16%);
+    --aquamarine: hsl(161, 67%, 56%);
+    --grape: hsl(282, 50%, 44%);
+    --vermillion: hsl(4, 83%, 60%);
+  }
+
+  body {
+    background-color: hsl(156, 6%, 12%);
+  }
+
+  header {
+    width: 100vw;
+  }
+
+  nav {
+      margin: auto ;
+      max-width: 1000px;
+      height: 100px;   
+      display:flex;
+      justify-content: space-evenly;
+      font-family: var(--roboto-mono);
+      border-bottom: 1px solid var(--magnolia);
+  }
+
+  nav a {
+    color: var(--magnolia);
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: var(--aquamarine);
+  }
+
+
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item:hover {
+    cursor: pointer;
+  }
