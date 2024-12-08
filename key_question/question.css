@@ -13,3 +13,72 @@
     --grape: hsl(282, 50%, 44%);
     --vermillion: hsl(4, 83%, 60%);
   }
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: var(--roboto-mono);
+    font-size: 48px;
+    color: var(--magnolia);
+}
+
+h2{
+    font-family: var(--roboto-mono);
+    font-size: 24px;
+}
+
+h3 {
+    font-family: var(--roboto-mono);
+    font-size: 24px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+p {
+    font-family: var(--inter);
+    line-height: 30px;
+}
+
+.content {
+    max-width: 750px;
+    color: var(--magnolia);
+}
+
+.source {
+    border: 1px solid var(--magnolia);
+    padding: 20px;
+}
+
+.citation {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .author {
+    font-weight: bold;
+  }
+
+  .year {
+    font-style: italic;
+  }
+
+  .source-title {
+    display: inline; /* Ensure the title remains inline */
+  }
+
+  .journal {
+    font-style: italic;
+  }
+
+  .doi a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+
+  .doi a:hover {
+    text-decoration: underline;
+  }
