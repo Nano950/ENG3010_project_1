@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  :root {
+    --roboto-mono: "Roboto Mono";
+    --inter: "Inter";
+    --magnolia: hsl(290, 25%, 95%);
+    --jet: hsl(156, 6%, 16%);
+    --aquamarine: hsl(161, 67%, 56%);
+    --grape: hsl(282, 50%, 44%);
+    --vermillion: hsl(4, 83%, 60%);
+  }
+
+/* hero section styles */
+.title {
+    color: var(--magnolia);
+    width: fit-content;
+    border-bottom: 4px solid var(--magnolia) ;
+}
+
+h1 {
+    margin-top: 100px;
+    font-family: var(--roboto-mono);
+    font-size: 48px;
+}
+
+.title p {
+    font-family: var(--inter);
+    font-size:24px;
+    
+}
+
+/* body styles */
+.intro { 
+    width: 666px;
+    overflow: hidden;
+    font-family: var(--inter);
+    font-size: 18px;
+    color: var(--magnolia);
+    line-height:30px;
+}
+
