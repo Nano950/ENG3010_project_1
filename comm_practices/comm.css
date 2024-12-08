@@ -31,6 +31,7 @@ h1 {
     width: 750px;
 
     margin-bottom: 50px;
+    
 }
 
 .com-practice a {
@@ -54,6 +55,6 @@ h3 {
 
 p {
     font-family: var(--inter);
-    line-height: 20px;
+    line-height: 30px;
 }
 
